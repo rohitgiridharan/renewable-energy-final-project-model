@@ -1,0 +1,14 @@
+{
+    "OutputDir": "results",
+    "AutoCreateNodes": false,
+    "ConstraintScaling": false,
+    "DualExportsEnabled": true,
+    "OutputLayout": "long",
+    "Retrofitting": false,
+    "AllowImplicitTopLevelCommodities": true,
+    "AutoCreateLocations": true,
+    "EnableJuMPStringNames": false,
+    "WriteSubcommodities": true,
+    "OverwriteResults": false,
+    "EnableJuMPDirectModel": false
+}

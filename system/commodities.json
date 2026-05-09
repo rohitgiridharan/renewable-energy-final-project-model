@@ -1,0 +1,31 @@
+{
+    "commodities": [
+        "Aluminum",
+        "Steam",
+        "Bauxite",
+        "AluminumScrap",
+        "Uranium",
+        "IronOre",
+        "CO2Captured",
+        "Heat",
+        "Ammonia",
+        "CrudeSteel",
+        "Electricity",
+        "Nitrogen",
+        "Alumina",
+        "Hydrogen",
+        "CO2",
+        "Coal",
+        "Graphite",
+        "LiquidFuels",
+        "SteelScrap",
+        "Cement",
+        "NaturalGas",
+        "Methanol",
+        "Biomass",
+        {
+            "name": "ElectrolysisHydrogen",
+            "acts_like": "Hydrogen"
+        }
+    ]
+}

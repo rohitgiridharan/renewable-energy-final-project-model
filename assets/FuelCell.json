@@ -1,0 +1,19 @@
+{
+    "FuelCell": {
+        "type": "FuelCell",
+        "instance_data": [
+            {
+                "id": "FuelCell",
+                "location": "default",
+                "can_expand": true,
+                "can_retire": true,
+                "existing_capacity": 0,
+                "capacity_size": 1,
+                "efficiency_rate": 1,
+                "investment_cost": 0,
+                "fixed_om_cost": 0,
+                "variable_om_cost": 0
+            }
+        ]
+    }
+}
