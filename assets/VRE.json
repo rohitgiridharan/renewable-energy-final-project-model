@@ -15,15 +15,15 @@
                 "availability": {
                     "timeseries": {
                         "path": "system/availability.csv",
-                        "header": "solar"
+                        "header": "Solar_CF"
                     }
                 }
             },
             {
                 "id": "wind",
                 "location": "default",
-                "can_expand": true,
-                "can_retire": true,
+                "can_expand": false,
+                "can_retire": false,
                 "existing_capacity": 0,
                 "investment_cost": 0,
                 "fixed_om_cost": 0,
@@ -31,7 +31,7 @@
                 "availability": {
                     "timeseries": {
                         "path": "system/availability.csv",
-                        "header": "wind"
+                        "header": "Wind_CF"
                     }
                 }
             }

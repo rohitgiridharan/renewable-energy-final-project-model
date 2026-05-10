@@ -1,13 +1,13 @@
 {
     "HoursPerSubperiod": {
-        "Electricity": 8760,
-        "Hydrogen": 8760
+        "Electricity": 168,
+        "Hydrogen": 168
     },
     "SubPeriodMap": {
         "path": "system/Period_map.csv"
     },
     "TotalHoursModeled": 8760,
-    "NumberOfSubperiods": 1,
+    "NumberOfSubperiods": 2,
     "HoursPerTimeStep": {
         "Electricity": 1,
         "Hydrogen": 1

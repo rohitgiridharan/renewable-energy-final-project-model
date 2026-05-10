@@ -22,10 +22,6 @@
         "Cement",
         "NaturalGas",
         "Methanol",
-        "Biomass",
-        {
-            "name": "ElectrolysisHydrogen",
-            "acts_like": "Hydrogen"
-        }
+        "Biomass"
     ]
 }
