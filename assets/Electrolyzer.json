@@ -1,6 +1,13 @@
 {
     "Electrolyzer": {
         "type": "Electrolyzer",
+        "global_data": {
+            "h2_constraints": {
+                "CapacityConstraint": true,
+                "RampingLimitConstraint": true,
+                "MinFlowConstraint": true
+            }
+        },
         "instance_data": [
             {
                 "id": "Electrolyzer",
@@ -9,7 +16,7 @@
                 "can_retire": true,
                 "existing_capacity": 0,
                 "capacity_size": 1,
-                "efficiency_rate": 0,
+                "efficiency_rate": 1,
                 "investment_cost": 0,
                 "fixed_om_cost": 0,
                 "variable_om_cost": 0

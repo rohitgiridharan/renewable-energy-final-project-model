@@ -1,6 +1,12 @@
 {
     "FuelCell": {
         "type": "FuelCell",
+        "global_data": {
+            "elec_constraints": {
+                "RampingLimitConstraint": true,
+                "MinFlowConstraint": true
+            }
+        },
         "instance_data": [
             {
                 "id": "FuelCell",
