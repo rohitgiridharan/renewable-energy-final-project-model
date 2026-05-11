@@ -9,16 +9,16 @@
         },
         "instance_data": [
             {
-                "id": "FuelCell",
+                "id": "H2_Turbine",
                 "location": "default",
                 "can_expand": true,
                 "can_retire": true,
                 "existing_capacity": 0,
                 "capacity_size": 1,
-                "efficiency_rate": 1,
+                "efficiency_rate": 0.4,
                 "investment_cost": 0,
-                "fixed_om_cost": 0,
-                "variable_om_cost": 0
+                "fixed_om_cost": 27800,
+                "variable_om_cost": 1.85
             }
         ]
     }

@@ -13,24 +13,25 @@
             "storage_existing_capacity": 0,
             "discharge_existing_capacity": 0,
             "charge_existing_capacity": 0,
-            "storage_investment_cost": 0,
-            "storage_fixed_om_cost": 0,
-            "storage_variable_om_cost": 0,
-            "discharge_investment_cost": 0,
-            "discharge_fixed_om_cost": 0,
-            "discharge_variable_om_cost": 0,
-            "charge_investment_cost": 0,
-            "charge_fixed_om_cost": 0,
-            "charge_variable_om_cost": 0,
-            "charge_electricity_consumption": 0,
-            "discharge_electricity_consumption": 0,
             "storage_long_duration": true,
             "discharge_efficiency": 1.0
         },
         "instance_data": [
             {
-                "id": "H2_Storage",
-                "location": "default"
+                "id": "H2_Cavern_Storage",
+                "location": "default",
+                "storage_min_storage_level": 0.3,
+                "storage_investment_cost": 1107.84,
+                "storage_fixed_om_cost": 0,
+                "storage_variable_om_cost": 21.22,
+                "discharge_investment_cost": 0,
+                "discharge_fixed_om_cost": 0,
+                "discharge_variable_om_cost": 0,
+                "charge_investment_cost": 0,
+                "charge_fixed_om_cost": 0,
+                "charge_variable_om_cost": 0,
+                "charge_electricity_consumption": 0,
+                "discharge_electricity_consumption": 0
             }
         ]
     }
